@@ -1,0 +1,25 @@
+# Fisqua — Documentation site
+# Spike scaffold, cloned from the telar-docs pattern (Jekyll + just-the-docs),
+# reskinned to the Fisqua design system (indigo / madder / parchment).
+title: Fisqua
+description: "Documentation for Fisqua — a workspace for archival description, import, and publication."
+baseurl: ""
+url: "https://docs.fisqua.org"
+
+theme: just-the-docs
+color_scheme: fisqua
+
+# English lives under /docs/, Spanish under /guia/ (mirrors telar-docs).
+permalink: pretty
+
+footer_content: "Fisqua — UCSB Archives, Memory, and Preservation Lab and Neogranadina."
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md

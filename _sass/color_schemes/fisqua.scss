@@ -1,0 +1,23 @@
+// Fisqua color scheme — indigo / madder / parchment
+// Mirrors the app's design system (app.css) so the docs read as Fisqua.
+// The docs layout carries its own inline CSS; these values back any page
+// that falls through to the just-the-docs default layout.
+
+$link-color: #b5533d;          // madder — accent links
+$btn-primary-color: #1f2e4d;   // indigo
+$body-heading-color: #1f2e4d;  // indigo
+$body-text-color: #292524;     // stone-800
+$sidebar-color: #f4efe6;       // parchment
+$border-color: #e7e5e4;        // stone-200
+$code-background-color: #eef1f7; // indigo-wash
+$search-background-color: #fafaf9;
+
+// Callouts keyed to the identity (parchment ground, saffron/madder edges)
+$blue-000: #eef1f7;
+$blue-300: #1f2e4d;
+$yellow-000: #f4efe6;
+$yellow-300: #c68a2e;
+$red-000: #faf1ec;
+$red-300: #b5533d;
+$green-000: #eef5f2;
+$green-300: #3e7a6e;

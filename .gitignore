@@ -1,0 +1,28 @@
+# Jekyll build files
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Ruby/Bundler
+vendor/
+.bundle/
+Gemfile.lock
+
+# Node / Pagefind
+node_modules/
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Never commit AI/planning artefacts to this public repo
+.claude/
+.planning/
+CLAUDE.md

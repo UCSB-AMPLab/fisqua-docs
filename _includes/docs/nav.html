@@ -1,0 +1,51 @@
+{%- comment -%}
+Build navigation from pages with parent front matter, filtered by language.
+Cloned from telar-docs; two levels (section → page).
+{%- endcomment -%}
+{% assign top_pages = site.html_pages | where_exp: "item", "item.parent == nil" | where_exp: "item", "item.nav_exclude != true" | where_exp: "item", "item.title != nil" | sort: "nav_order" %}
+{% assign en_pages = top_pages | where: "lang", "en" %}
+{% assign es_pages = top_pages | where: "lang", "es" %}
+
+<div data-lang="en">
+  <ul class="nav-list">
+    {% for node in en_pages %}
+      <li class="nav-item">
+        <a href="{{ node.url | relative_url }}" class="nav-link {% if page.url == node.url %}active{% endif %}">{{ node.title }}</a>
+        {% if node.has_children %}
+          {% assign children = site.html_pages | where: "parent", node.title | where: "lang", "en" | sort: "nav_order" %}
+          {% if children.size > 0 %}
+            <ul class="nav-children">
+              {% for child in children %}
+                <li class="nav-item">
+                  <a href="{{ child.url | relative_url }}" class="nav-link {% if page.url == child.url %}active{% endif %}">{{ child.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div data-lang="es">
+  <ul class="nav-list">
+    {% for node in es_pages %}
+      <li class="nav-item">
+        <a href="{{ node.url | relative_url }}" class="nav-link {% if page.url == node.url %}active{% endif %}">{{ node.title }}</a>
+        {% if node.has_children %}
+          {% assign children = site.html_pages | where: "parent", node.title | where: "lang", "es" | sort: "nav_order" %}
+          {% if children.size > 0 %}
+            <ul class="nav-children">
+              {% for child in children %}
+                <li class="nav-item">
+                  <a href="{{ child.url | relative_url }}" class="nav-link {% if page.url == child.url %}active{% endif %}">{{ child.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
