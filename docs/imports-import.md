@@ -23,7 +23,7 @@ pick the **repository** new records are filed under, and confirm you have
 **reviewed the report**.
 
 <figure>
-  <img src="{{ '/assets/img/imports-import-en.png' | relative_url }}" alt="The import step: the run message, repository selector, and the review confirmation that arms the commit button.">
+  <img src="{{ '/docs-assets/img/imports-import-en.png' | relative_url }}" alt="The import step: the run message, repository selector, and the review confirmation that arms the commit button.">
   <figcaption>The import step: a run message, the repository to file records under, and the review confirmation.</figcaption>
 </figure>
 

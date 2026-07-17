@@ -18,7 +18,7 @@ would cause — grouped **by problem class** rather than row by row, so a fault 
 a thousand rows is one thing to decide, not a thousand.
 
 <figure>
-  <img src="{{ '/assets/img/imports-check-en.png' | relative_url }}" alt="The check screen listing findings grouped by problem class, each with its options.">
+  <img src="{{ '/docs-assets/img/imports-check-en.png' | relative_url }}" alt="The check screen listing findings grouped by problem class, each with its options.">
   <figcaption>The check groups findings by class and states the options for each.</figcaption>
 </figure>
 

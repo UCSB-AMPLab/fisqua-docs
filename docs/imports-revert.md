@@ -24,7 +24,7 @@ Because the revert is itself recorded, it is itself reversible: reverting a
 revert re-applies the original import.
 
 <figure>
-  <img src="{{ '/assets/img/imports-revert-en.png' | relative_url }}" alt="A revert run's results: counts for deleted, restored, and kept records, with a downloadable revert report.">
+  <img src="{{ '/docs-assets/img/imports-revert-en.png' | relative_url }}" alt="A revert run's results: counts for deleted, restored, and kept records, with a downloadable revert report.">
   <figcaption>A revert is a recorded run of its own, with honest counts for what it undid and what it kept.</figcaption>
 </figure>
 

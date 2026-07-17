@@ -26,7 +26,7 @@ details — and the step chain begins. Staging touches nothing in the catalogue;
 it only holds the file for the checks ahead.
 
 <figure>
-  <img src="{{ '/assets/img/imports-upload-en.png' | relative_url }}" alt="The imports landing page: a CSV upload area, the step chain, and a list of imports in progress.">
+  <img src="{{ '/docs-assets/img/imports-upload-en.png' | relative_url }}" alt="The imports landing page: a CSV upload area, the step chain, and a list of imports in progress.">
   <figcaption>The imports landing page: stage a CSV, and pick up any import already under way.</figcaption>
 </figure>
 

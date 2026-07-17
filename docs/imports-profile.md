@@ -25,7 +25,7 @@ You choose a profile during the [Check](../check/) step, and the check and dry
 run both classify every row through it.
 
 <figure>
-  <img src="{{ '/assets/img/imports-profile-en.png' | relative_url }}" alt="The mapping profile editor: each source column paired with a description field and a transform.">
+  <img src="{{ '/docs-assets/img/imports-profile-en.png' | relative_url }}" alt="The mapping profile editor: each source column paired with a description field and a transform.">
   <figcaption>Each source column is paired with a description field, and a transform where the value needs reshaping.</figcaption>
 </figure>
 

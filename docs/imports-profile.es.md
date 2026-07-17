@@ -26,7 +26,7 @@ El perfil se elige en el paso de [Verificación](../verificacion/), y tanto la
 verificación como la simulación clasifican cada fila con él.
 
 <figure>
-  <img src="{{ '/assets/img/imports-profile-es.png' | relative_url }}" alt="El editor de perfiles de asignación: cada columna de origen junto a un campo de descripción y una transformación.">
+  <img src="{{ '/docs-assets/img/imports-profile-es.png' | relative_url }}" alt="El editor de perfiles de asignación: cada columna de origen junto a un campo de descripción y una transformación.">
   <figcaption>Cada columna de origen se empareja con un campo de descripción, y con una transformación donde el valor necesita ajustarse.</figcaption>
 </figure>
 

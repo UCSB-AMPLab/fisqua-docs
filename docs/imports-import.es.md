@@ -23,7 +23,7 @@ justificación opcional), eliges el **repositorio** donde se archivan los
 registros nuevos y confirmas que **revisaste el informe**.
 
 <figure>
-  <img src="{{ '/assets/img/imports-import-es.png' | relative_url }}" alt="El paso de importación: el mensaje de la ejecución, el selector de repositorio y la confirmación de revisión que activa el botón de confirmar.">
+  <img src="{{ '/docs-assets/img/imports-import-es.png' | relative_url }}" alt="El paso de importación: el mensaje de la ejecución, el selector de repositorio y la confirmación de revisión que activa el botón de confirmar.">
   <figcaption>El paso de importación: un mensaje de la ejecución, el repositorio donde se archivan los registros y la confirmación de revisión.</figcaption>
 </figure>
 

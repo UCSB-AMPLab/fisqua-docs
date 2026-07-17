@@ -18,7 +18,7 @@ problemas que causaría la importación, agrupados **por tipo** y no fila por
 fila: así, un fallo que se repite en mil filas es una sola decisión y no mil.
 
 <figure>
-  <img src="{{ '/assets/img/imports-check-es.png' | relative_url }}" alt="La pantalla de verificación con los hallazgos agrupados por tipo, cada uno con sus opciones.">
+  <img src="{{ '/docs-assets/img/imports-check-es.png' | relative_url }}" alt="La pantalla de verificación con los hallazgos agrupados por tipo, cada uno con sus opciones.">
   <figcaption>La verificación agrupa los hallazgos por tipo y expone las opciones de cada uno.</figcaption>
 </figure>
 

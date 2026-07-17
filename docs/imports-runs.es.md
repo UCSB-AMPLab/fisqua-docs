@@ -26,7 +26,7 @@ ejecución lleva:
   informe y los rechazos**.
 
 <figure>
-  <img src="{{ '/assets/img/imports-runs-es.png' | relative_url }}" alt="La lista de ejecuciones: cada importación confirmada como una fila, con su mensaje, autor y resultado.">
+  <img src="{{ '/docs-assets/img/imports-runs-es.png' | relative_url }}" alt="La lista de ejecuciones: cada importación confirmada como una fila, con su mensaje, autor y resultado.">
   <figcaption>La lista de ejecuciones es el historial de importaciones del catálogo: qué entró, cuándo y quién lo hizo.</figcaption>
 </figure>
 

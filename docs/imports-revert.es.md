@@ -25,7 +25,7 @@ Como la reversión también queda en la bitácora, ella misma es reversible:
 revertir una reversión vuelve a aplicar la importación original.
 
 <figure>
-  <img src="{{ '/assets/img/imports-revert-es.png' | relative_url }}" alt="Los resultados de una reversión: totales de registros eliminados, restaurados y conservados, con un informe de reversión para descargar.">
+  <img src="{{ '/docs-assets/img/imports-revert-es.png' | relative_url }}" alt="Los resultados de una reversión: totales de registros eliminados, restaurados y conservados, con un informe de reversión para descargar.">
   <figcaption>Una reversión es una ejecución registrada en sí misma, con totales honestos de lo que deshizo y lo que conservó.</figcaption>
 </figure>
 

@@ -24,7 +24,7 @@ There is **no automatic pass or fail**. The dry run's job is to let you read and
 judge the outcome before committing to it.
 
 <figure>
-  <img src="{{ '/assets/img/imports-dry-run-en.png' | relative_url }}" alt="The dry-run report: counts for creates, updates, skips, rejects, and warnings, with a table of rejected rows.">
+  <img src="{{ '/docs-assets/img/imports-dry-run-en.png' | relative_url }}" alt="The dry-run report: counts for creates, updates, skips, rejects, and warnings, with a table of rejected rows.">
   <figcaption>The dry-run report — counts by outcome, and every rejected row with its reason.</figcaption>
 </figure>
 

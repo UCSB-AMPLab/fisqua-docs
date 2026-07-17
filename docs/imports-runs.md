@@ -23,7 +23,7 @@ Every committed import is recorded as a **run**. A run carries:
 - links to download the run's **source file, report, and rejects file**.
 
 <figure>
-  <img src="{{ '/assets/img/imports-runs-en.png' | relative_url }}" alt="The runs list: each committed import as a row, with its message, author, and outcome.">
+  <img src="{{ '/docs-assets/img/imports-runs-en.png' | relative_url }}" alt="The runs list: each committed import as a row, with its message, author, and outcome.">
   <figcaption>The runs list is the catalogue's import history — what entered, when, and on whose authority.</figcaption>
 </figure>
 

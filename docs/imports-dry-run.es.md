@@ -23,7 +23,7 @@ No hay un **veredicto automático**. La simulación existe para que leas y juzgu
 el resultado antes de comprometerte con él.
 
 <figure>
-  <img src="{{ '/assets/img/imports-dry-run-es.png' | relative_url }}" alt="El informe de simulación: totales de creaciones, actualizaciones, omisiones, rechazos y advertencias, con la tabla de filas rechazadas.">
+  <img src="{{ '/docs-assets/img/imports-dry-run-es.png' | relative_url }}" alt="El informe de simulación: totales de creaciones, actualizaciones, omisiones, rechazos y advertencias, con la tabla de filas rechazadas.">
   <figcaption>El informe de simulación: totales por resultado, y cada fila rechazada con su motivo.</figcaption>
 </figure>
 

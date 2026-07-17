@@ -28,7 +28,7 @@ sus datos— y comienza la cadena de pasos. Preparar el archivo no altera el
 catálogo: solo lo guarda para las revisiones que siguen.
 
 <figure>
-  <img src="{{ '/assets/img/imports-upload-es.png' | relative_url }}" alt="La página de importaciones: el área para cargar un CSV, la cadena de pasos y la lista de importaciones en curso.">
+  <img src="{{ '/docs-assets/img/imports-upload-es.png' | relative_url }}" alt="La página de importaciones: el área para cargar un CSV, la cadena de pasos y la lista de importaciones en curso.">
   <figcaption>La página de importaciones: prepara un CSV y retoma una importación en curso.</figcaption>
 </figure>
 

@@ -4,7 +4,7 @@
 title: Fisqua
 description: "Documentation for Fisqua — a workspace for archival description, import, and publication."
 baseurl: ""
-url: "https://docs.fisqua.org"
+url: "https://fisqua.org"
 
 theme: just-the-docs
 color_scheme: fisqua
